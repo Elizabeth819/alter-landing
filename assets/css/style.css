@@ -29,7 +29,7 @@
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
   margin: 0;
@@ -1352,7 +1352,6 @@ h1, h2, h3, h4, p { margin: 0; }
   .site-footer { padding-bottom: 44px; }
   .footer-grid { grid-template-columns: 1.1fr 0.9fr; }
   .footer-links { grid-template-columns: 1fr 1fr 1fr; }
-  .footer-links .footer-col:first-child { display: none; }
 }
 
 /* ---------------- 移动端悬浮 CTA ---------------- */

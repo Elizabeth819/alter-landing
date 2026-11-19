@@ -156,7 +156,6 @@
   var whyLine = document.querySelector('.why');
 
   var picked = [];
-  var NATIVE = "No, go ahead — I'm new here, by the way.";
 
   var TIERS = {
     1: { name: '第 1 档 · 再想想', sub: '先听懂她在问什么', why: '她在问这个位子有没有人。先回答这个问题，再想别的。' },
